@@ -1,0 +1,62 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "YCloud API",
+    "version": "2.0.0",
+    "description": "YCloud API 规范"
+  },
+  "servers": [
+    {
+      "url": "https://api.ycloud.com/v2",
+      "description": "生产环境"
+    }
+  ],
+  "paths": {
+    "/sms/messages": {
+      "post": {
+        "summary": "发送短信",
+        "description": "发送短信消息",
+        "operationId": "sendSms",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "mobile": {
+                    "type": "string",
+                    "description": "手机号码"
+                  },
+                  "text": {
+                    "type": "string",
+                    "description": "短信内容"
+                  }
+                },
+                "required": ["mobile", "text"]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "成功",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "messageId": {
+                      "type": "string",
+                      "description": "消息ID"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+} 

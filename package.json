@@ -1,0 +1,35 @@
+{
+  "name": "ycloud-whatsapp-mcp-server",
+  "version": "0.1.0",
+  "description": "YCloud WhatsApp API MCP Server",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc -w",
+    "inspect": "node build/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "ycloud",
+    "whatsapp",
+    "api",
+    "openapi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@apidevtools/swagger-parser": "^10.1.0",
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "axios": "^1.6.7",
+    "js-yaml": "^4.1.0",
+    "openapi-types": "^12.1.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^18.19.3",
+    "typescript": "^5.3.3"
+  }
+}
