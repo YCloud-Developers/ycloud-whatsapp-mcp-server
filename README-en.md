@@ -30,7 +30,7 @@ Before using this server, you need to:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ycloud-whatsapp-mcp-server.git
+git clone https://github.com/YCloud-Developers/ycloud-whatsapp-mcp-server.git
 cd ycloud-whatsapp-mcp-server
 
 # Install dependencies

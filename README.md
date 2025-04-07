@@ -30,7 +30,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/ycloud-whatsapp-mcp-server.git
+git clone https://github.com/YCloud-Developers/ycloud-whatsapp-mcp-server.git
 cd ycloud-whatsapp-mcp-server
 
 # 安装依赖
