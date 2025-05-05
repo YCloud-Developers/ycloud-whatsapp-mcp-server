@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/ycloud-developers-ycloud-whatsapp-mcp-server-badge.png)](https://mseep.ai/app/ycloud-developers-ycloud-whatsapp-mcp-server)
+
 # YCloud WhatsApp API MCP 服务器
 
 [English](README-en.md) | 中文
