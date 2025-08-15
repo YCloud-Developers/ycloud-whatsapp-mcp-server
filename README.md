@@ -1,4 +1,5 @@
 # YCloud WhatsApp API MCP 服务器
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/YCloud-Developers/ycloud-whatsapp-mcp-server)](https://archestra.ai/mcp-catalog/ycloud-developers__ycloud-whatsapp-mcp-server)
 
 [English](README-en.md) | 中文
 
