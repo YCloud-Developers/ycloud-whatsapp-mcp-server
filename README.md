@@ -4,6 +4,10 @@
 
 这是一个基于[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)构建的YCloud WhatsApp API服务器。它能够自动从YCloud WhatsApp OpenAPI规范中生成工具，让AI模型（如Claude）可以直接与YCloud WhatsApp API交互。
 
+<a href="https://glama.ai/mcp/servers/@YCloud-Developers/ycloud-whatsapp-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@YCloud-Developers/ycloud-whatsapp-mcp-server/badge" alt="YCloud WhatsApp API Server MCP server" />
+</a>
+
 ## 前提条件
 
 在使用此服务器之前，您需要：
@@ -120,4 +124,4 @@ Claude将能够调用适当的API端点并返回结果。
 
 ## 许可证
 
-MIT 
+MIT
