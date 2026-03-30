@@ -121,3 +121,8 @@ Claude将能够调用适当的API端点并返回结果。
 ## 许可证
 
 MIT 
+
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/ycloud-developers-ycloud-whatsapp-mcp-server).
+
